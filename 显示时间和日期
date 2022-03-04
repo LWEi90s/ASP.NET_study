@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace DemonShowDateTimeXYY
+{
+	public partial class Default : System.Web.UI.Page
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
+			
+				//定义日期字符串
+				string strDateTime = "";
+				//为日期字符串赋值
+				strDateTime = System.DateTime.Now.ToString("F");
+				//将日期字符串信息显示到Label标签上
+				Label1.Text = strDateTime;
+			
+			
+		}
+	}
+}
