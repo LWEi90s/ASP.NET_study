@@ -1,0 +1,57 @@
+<!-- 表单与表单元素：form 是用来收集用户信息的 
+-->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="数据处理网页">
+	<!--表单元素-->
+
+	<!--文本框-->
+	账户：<input type="text" name="useeName" /><br /> <!-- 文本框text 密码框password -->
+	密码：<input type="password" name="userPsd" /><br />
+	<!--按钮：提交按钮、重置按钮     typq；提交submit  重置reset   value:按钮上显示的文字  -->
+	姓名：<input type="text"  value="" name="myName"><br />
+	<input type="submit" value="提交" name="submit"><br />
+	爱好：
+	<input type="text" /><br />
+	<input type="submit" value="确定" /><br />
+	<input type="reset" value="重置"  /><br />
+	<!--单选框radio：只能选择一项  复选框checkbox：任意选择多项-->
+	性别：
+	男 <input type="radio" value="boy" name="gender" checked="checked" />  <!--将name选项设置为相同的取值,这样一组单选框里面才会被选择一个选项-->
+	女 <input type="radio" value="girl" name="gender"  /><br />
+爱好：
+	<input type="checkbox" value="1" name="music" checked="checked" />音乐
+	<input type="checkbox" value="2" name="read"  />阅读
+	<input type="checkbox" value="3" name="sport"  />运动<br />
+	<input type="submit" value="提交" name="submit"><br />
+	<!--下拉列表框select option     当selected="selected"：就是被选择的哪一项-->
+	选择：
+	<select name="" id="">
+		<option value="" selected="selected">选项1</option>
+		<option value="" >选项2</option>
+	</select><br />
+	<!--文本域Textarea-->
+	个人简介：<br />
+	<textarea cols="50" rows="10">在这里输入内容</textarea><br />
+	<input type="submit" value="确定" />
+	<input type="reset" value="重置"  /><br />
+
+
+
+	</form>
+
+
+
+</body>
+</html>
