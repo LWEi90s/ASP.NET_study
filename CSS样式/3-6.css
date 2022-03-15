@@ -1,0 +1,9 @@
+/*	1.*/
+	<style type="text/css">
+		.inside{
+			list-style-position: inside;
+		}
+		.outside{
+			list-style-position: outside;
+		}
+	</style>

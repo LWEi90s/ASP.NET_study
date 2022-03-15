@@ -1,0 +1,67 @@
+<!-- CSS添加方法-行内、内嵌 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p style="color: red;">  <!-- 行内 -->
+		练习1：行内添加
+	</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		p{
+			color: red;  /* 内嵌*/
+		}
+	</style>
+</head>
+<body>
+	<p>练习2：内嵌添加</p>
+</body>
+</html>
+
+
+<!-- CSS添加方法-单独文件
+1.外部式样式表文件style.css  放在单独的文件夹中
+p{
+	color:red;/*设置文字颜色*/
+}
+
+2.网页文件1.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet"/*链接到样式表中*/  type="text/css" href="css/style.css"/*链接到css文件的路径位置*/>  /*快捷： link:css*/
+</head>
+<body>
+	<p>lainxi3</p>
+</body>
+</html>
+
+3.网页文件2.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<p>lianxi4</p>
+</body>
+</html>
