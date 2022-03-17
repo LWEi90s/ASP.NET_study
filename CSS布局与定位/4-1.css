@@ -1,0 +1,21 @@
+<!-- 盒子模型 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>盒子</title>
+		<style>
+		#box{
+			width: 100px;
+			height: 100px;
+			border: 1px solid; /*solid实线框*/
+			padding: 20px; /*overflow: hidden;超出部分不可见 scroll显示滚动条 atuo如果有超出部分，显示滚动条*/
+			margin: 10px;
+		}
+	</style>
+
+</head>
+<body>
+	
+</body>
+</html>

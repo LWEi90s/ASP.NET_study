@@ -1,0 +1,35 @@
+<!-- 盒子模型border内边框 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>盒子</title>
+	<style>
+		#box{
+			width: 100px;
+			height: 100px;
+			border: 5px double red; /*solid实线框*//*/border属性： border-width: 边框宽度 border-style:边框样式;  border-color: 颜色   border:with style color;*/
+			padding: 20px; /*overflow: hidden;超出部分不可见 scroll显示滚动条 atuo如果有超出部分，显示滚动条*/
+			margin: 10px;
+		}
+	</style>
+
+<!-- 	2.水平分割线的制作 -->
+	<style>
+	.line{
+		height: 1px;
+		width: 500px;
+		border-top: 1px solid #e5e5e5;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="box">
+		<p>内容内容内容内容内容内容内容内容内容</p>
+	</div>
+	<div class="line"></div><!-- 	水平分割线的制作 -->
+</body>
+</html>
+
+

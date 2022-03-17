@@ -1,0 +1,57 @@
+<!-- 盒子模型2：padding内边距 margin外边距
+取值px,% -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	#eg1{
+		width: 100px;
+		height: 100px;
+		margin: 15px 10px 40px 30px;/*外边距*/
+		border:1px solid red;/*外边框*/
+	}
+	</style>
+<!-- 		/*水平居中*/ -->
+	<style>
+	#eg2{
+		text-align: center; /*文字图片水平居中*/
+		width: 100px;
+		height: 100px;
+		margin: 15px 10px 40px 30px;/*外边距*/
+		border:1px solid red;/*外边框*/
+		margin: 0 auto;/* div水平居中*/
+	}
+	</style>	
+		<!-- 	三张图片排放在一起 -->
+	<style>
+	#container{
+		margin: 15px;
+		border:2px solid red;
+	}
+	#newsimglist{
+		text-align: center;
+		/*font-size: 0;*//*否则图件有空隙*/
+	}
+	#newsimglist img{
+		height: 100px;
+		width: 100px;
+		margin-left: 5px;
+		border: 1px solid red;
+		padding: 200px solid red;
+	}
+	</style>
+</head>
+<body>
+	<div id="eg1">box1</div><!-- margin合并：垂直方向上合并，水平方向上不合并 -->
+	<div id="eg2">box2</div>
+	<div id="container">
+		<div id="newsimglist">
+			<img src="baidu.png">
+			<img src="baidu.png" >
+			<img src="baidu.png" >
+		</div>
+	</div>	
+</body>
+</html>

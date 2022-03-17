@@ -1,0 +1,57 @@
+<!-- <!-- CSS定位方式：文档流flow、浮动float、层定位layer-position -->
+<!-- 元素分类block:每个block独占一行
+元素分类inline:不单独占一行，width height不可设置,  inline 之间有个间隙 
+元素分类inline-block:不单独占一行  常见：<img>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/*默认样式清零*/
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		/*导航条区域的样式*/
+	#nav{
+		width: 300px;
+		margin: 0 auto;/*水平居中 100是上下的外边距，距离浏览器外边界有100px*/
+		/*border:2px solid red;*/
+		font-size: 0;//标签之间的间隙为0
+	}
+	/*标签类型的样式*/
+	a{
+
+		display: inline-block;
+		/*盒子的样式*/
+		width: 80px;
+		height: 30px;
+		border: 1px solid #ccc;/*下面边框*/
+		/*超链接文本*/
+		font-size: 14px;
+		text-align: center;/*水平方向的对其方式*/
+		line-height: 30px;/*垂直方向的对其方式*/
+		text-decoration: none;/*没有下划线*/
+		
+	}
+	/*悬停状态下的效果*/
+	a:hover{
+		color: white;
+		background: #ccc;
+		border: 1px solid;//边框
+		border-left: orange;
+		border-right: orange;
+		border-top: orange;
+	}
+	</style>
+</head>
+<body>
+	<div id="nav">
+		<a href="#">w3</a>
+		<a href="https://www.icourse163.org/learn/BFU-1003382003?tid=1467148606#/learn/content">web</a>
+	</div>
+
+</body>
+</html> 
