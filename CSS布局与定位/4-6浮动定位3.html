@@ -1,0 +1,65 @@
+<!-- 三行两列 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{/*//对浏览器默认的设置清0*/
+			padding: 0;
+			margin: 0;
+		}
+
+		/*//设置页面的基本样式*/
+		body{
+			font-size: 14px;
+		}
+		#container{
+			margin: 0 auto;/*//container居中*/
+			width:1000px; /*//当前内容在页面中占据的宽度*/
+			height: 2000px;/*//由内容高度决定盒子的高度*/
+			
+		}
+		#header{
+			height: 80px;
+			background: #6cf;
+			margin-bottom: 5px； /*下边距*/
+
+		}
+		#main{
+			width: 1000px;
+			height: 330px;
+			margin-top: 5px； /*下边距*/
+		}
+		#left{
+			float: left;
+			width: 300px;
+			height: 330px;
+			background: grey;
+		}
+		#right{
+			float: right;
+			width: 695px;
+			height: 330px;
+			background: grey;
+		}		
+		#footer{
+			height: 40px;
+			background: #6cf;
+
+		}		
+
+	</style>
+
+</head>
+<body>
+	<div id="container">
+		<div id="header"></div>
+		<div id="main">
+			<div id="left"></div>
+			<div id="right"></div>
+		</div>
+		<div id="footer"></div>
+	</div>
+</body2
+</html>
