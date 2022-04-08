@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+
+		var price,count,money;//定义单价，数量，收款金额 
+		var total,change; //定义产品总价，找零 -
+
+		price=prompt("请输入商品单价:"); //提醒用户输入 
+		count=prompt("请输入商品数量:");
+
+		total=price*count;
+
+		if(money>500){
+			total=total*0.8;
+			alert("八折优惠");	
+			alert("此次消费金额是："+total+"元");
+		}
+		
+		if(money>=total){
+			change=money-total;
+			alert("找钱：change");
+		}
+		else
+			alert("钱不够");
+	
+	</script> 
+</html>
